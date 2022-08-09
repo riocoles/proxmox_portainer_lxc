@@ -185,7 +185,7 @@ pushd $TEMP_DIR >/dev/null
 #cp /root/install/setup.sh ./
 
 # Detect modules and automatically load at boot
-load_module aufs
+#load_module aufs
 load_module overlay
 
 # Select storage location
